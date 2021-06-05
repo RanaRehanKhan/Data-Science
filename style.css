@@ -1,0 +1,324 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("./img/home.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar-light .navbar-nav .nav-link.active{
+    color: #0a9176;
+    border-right: 4px solid #606e60;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    border-right: 4px solid #606e60;
+    font-size: 20px;
+    color: #606e60;
+    font-weight: bold;
+  }
+  a {
+    color: #606e60;
+    padding: 10px 15px 0px 15px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.p-2 {
+  background-color: rgba(16,199,179,0.5);
+  margin-top: 390px;
+}
+.text{
+  color: beige;
+  padding: 40px 0px 40px 320px;
+  font-size: 50px;
+  font-weight: bolder; 
+}
+.text1{
+  color: #0a9176;
+  padding-top: 55px;
+  padding-left: 30px;
+  font-weight: bolder;
+}
+.btn1 {
+  width: 420px;
+  height: 110px;
+  border-radius: 20px;
+  background-color: #0a9176;
+  color: white;
+}
+.butn { /* Green */
+  border: none;
+  color: white;
+  padding-top: 55px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.first{
+  padding-top: 388px;
+  margin-left: -80px;
+}
+.first h1{
+font-size: 35px;
+}
+.first h2{
+color: #0a9176;
+}
+.first input{
+  border: 2px solid #0a9176;
+  border-radius: 5px;
+}
+.first input::placeholder{
+color: #0a9176;
+}
+.first button{
+color: white;
+background: #0a9176;
+border: 2px solid #0a9176;
+border-radius: 5px;
+}
+.space{
+  padding-top: 120px;
+}
+.foot1{
+  padding-left: 70px;
+}
+.copyright{
+  padding-left: 25px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #606e60;
+}
+.line{
+  border: 2px solid #0a9176;
+}
+
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 4px solid #0a9176;
+  width: 320px;
+  height: 75px;
+  background: white;
+  margin-top: -35px;
+  justify-content: center;
+}
+#one{
+  color: #0a9176;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0px;
+}
+#two{
+  color: #0a9176;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 10px;
+
+}
+#step{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+}
+.events{
+  color: #0a9176;
+  padding-top: 60px;
+}
+.events h1{
+  font-weight: bolder;
+}
+.month{
+  position: absolute;
+  z-index: 1;
+  color: #636361;
+  background-color: #adacaa;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  width: 50px;
+}
+.btn2 {
+  width: 275px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #0a9176;
+  color: white;
+  font-size: 30px;
+  margin: 40px 0px 20px 0px;
+  
+}
+#para{
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+#sp{
+  color: #0a9176;
+}
+#pic{
+  border: 3px solid #0a9176;
+}
+.reg{
+  background-color: #0a9176;
+  border: 2px solid black;
+}
+.name1{
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.name1 input{
+  border: 1px solid #0a9176;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+}
+.name1 select{
+  border: 1px solid #0a9176;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+}
+.name2{
+  margin: auto;
+  width: 80%;
+  padding: 10px 0px 10px 0px;
+}
+.name2 input{
+  border: 1px solid #0a9176;
+  width: 50px;
+  height: 40px;
+}
+.name2 label{
+  color: #0a9176;
+  font-size: 21px;
+  font-weight: bolder;
+}
+.name3{
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+.name3 input{
+  border: 1px solid #0a9176;
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+}
+.name4{
+  margin: auto;
+  width: 57%;
+  padding: 10px 0px 10px 0px;
+  margin-left: 90px;
+}
+.name4 input{
+  border: 1px solid #0a9176;
+  width: 30px;
+  height: 40px;
+}
+
+#subt{
+  margin-top: 15px;
+  height: 65px;
+  width: 120px;
+  color: white;
+  background-color: #0a9176;
+  border-radius: 15px;
+  border: 1px solid #0a9176;
+}
+#subt1{
+  margin: 0px 0px 40px 45px;
+  height: 65px;
+  width: 120px;
+  color: white;
+  padding-left: 0px;
+  background-color: #0a9176;
+  border-radius:  5px;
+  border: 1px solid #0a9176;
+}
+.back{
+  background-color: #d1dbe3;
+  padding-top: 20px;
+}
+#last{
+  font-size: 35px;
+  background-color: #0a9176;
+}
+#last1{
+  font-size: 35px;
+  color: white;
+  font-weight: bolder;
+  padding: 12px;
+}
+#last2{
+  border: 2px solid #0a9176;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+}
+.last3{
+  margin-left: 9px;
+}
+.last3 h1{
+  color: #0a9176;
+  font-weight: bolder;
+}
+.last0{
+  margin: 35px 0px 10px 5px;
+}
+.last4 h6{
+   font-weight: bolder;
+}
+/* input[type='checkbox']:after {
+  
+  background-color: #d1d3d1;
+  
+}
+
+input[type='checkbox']:checked:after {
+ 
+  background-color: #ffa500;
+  
+} */
+form{
+  background-color:#d1dbe3;
+  padding-bottom: 30px;
+  margin-bottom: 90px;
+
+}
+.switch6 {  max-width: 17em;  margin: 0 auto; }
+.switch6-light > span, .switch-toggle > span {  color: #000000; }
+.switch6-light span span, .switch6-light label, .switch-toggle span span, .switch-toggle label {  color: #2b2b2b; }
+
+.switch-toggle a, 
+.switch6-light span span { display: none; }
+
+.switch6-light { display: block; height: 30px; position: relative; overflow: visible; padding: 0px; margin-left:0px; }
+.switch6-light * { box-sizing: border-box; }
+.switch6-light a { display: block; transition: all 0.3s ease-out 0s; }
+
+.switch6-light label, 
+.switch6-light > span { line-height: 30px; vertical-align: middle;}
+
+.switch6-light label {font-weight: 700; margin-bottom: px; max-width: 100%;}
+
+.switch6-light input:focus ~ a, .switch6-light input:focus + label { outline: 1px dotted rgb(136, 136, 136); }
+.switch6-light input { position: absolute; opacity: 0; z-index: 5; }
+.switch6-light input:checked ~ a { right: 0%; }
+.switch6-light > span { position: absolute; left: -100px; width: 100%; margin: 0px; padding-right: 100px; text-align: left; }
+.switch6-light > span span { position: absolute; top: 0px; left: 0px; z-index: 5; display: block; width: 50%; margin-left: 100px; text-align: center; }
+.switch6-light > span span:last-child { left: 50%; }
+.switch6-light a { position: absolute; right: 50%; top: 0px; z-index: 4; display: block; width: 50%; height: 100%; padding: 0px; }
